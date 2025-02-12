@@ -1,0 +1,15 @@
+.paragraph-draft {
+  margin: 0 auto;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: transparent;
+  color: inherit;
+  caret-color: inherit;
+  width: 100%;
+  min-height: 4rem;
+  outline: none;
+  border: none;
+  resize: none;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
