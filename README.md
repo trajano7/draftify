@@ -1,8 +1,54 @@
-# React + Vite
+# Draftify - Editor de Rascunhos de Redação
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Draftify** é uma aplicação para criação e gerenciamento de rascunhos de redação. Ela permite que o usuário adicione parágrafos, visualize o conteúdo, salve e limpe o rascunho.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Adicionar Parágrafo**: O usuário pode adicionar novos parágrafos ao rascunho.
+- **Salvar Rascunho**: O rascunho é salvo localmente no navegador.
+- **Visualizar Texto**: Exibe todos os parágrafos do rascunho em uma área de visualização.
+- **Limpar Rascunho**: Permite limpar o conteúdo do rascunho.
+
+## Tecnologias Utilizadas
+
+- **React**: Biblioteca para criação da interface de usuário.
+- **Vite**: Ferramenta de build que otimiza o desenvolvimento e a performance.
+
+## Como Rodar Localmente
+
+### 1. Clonar o Repositório
+
+Clone o repositório para o seu computador:
+
+```bash
+git clone https://github.com/trajano7/draftify.git
+```
+
+### 2. Instalar Dependências
+
+Navegue até a pasta do projeto e instale as dependências necessárias:
+
+```bash
+cd draftify
+npm install
+```
+
+### 3. Rodar o Servidor de Desenvolvimento
+
+Execute o comando abaixo para iniciar a aplicação localmente:
+
+```bash
+npm run dev
+```
+
+A aplicação estará disponível em [http://localhost:5173](http://localhost:5173).
+
+## Link da Página Online
+
+Você pode acessar a versão online da aplicação através do link abaixo:
+
+[https://trajano7.github.io/draftify/](https://trajano7.github.io/draftify/)
+
+## Licença
+
+Este projeto está sob a licença MIT.
